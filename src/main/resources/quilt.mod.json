@@ -2,26 +2,25 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "com.stereo528",
-		"id": "example",
+		"id": "stereolib",
 		"version": "${version}",
 		"metadata": {
-			"name": "Example",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+			"name": "StereoLib",
+			"description": "The all purpose mod library for all of Steroe528's mod's in the future, including a config system, and other stuff eventually.",
 			"contributors": {
-				"Stereo528": "Owner"
+				"Stereo528": "Owner/Programmer"
 			},
 			"contact": {
 				"homepage": "https://stereo528.com",
-				"issues": "https://github.com/Stereo528/quilt-template-mod/issues",
-				"sources": "https://github.com/Stereo528/quilt-template-mod"
+				"issues": "https://github.com/Stereo528/stereolib/issues",
+				"sources": "https://github.com/Stereo528/stereolib"
 			},
-			"icon": "assets/example/icon.png"
+			"icon": "assets/stereolib/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.stereo528.example.Example",
-			"client_init": "com.stereo528.example.ExampleClient",
-			"modmenu": "com.stereo528.example.Config.ModMenuIntegration"
+			"init": "com.stereo528.stereolib.StereoLib",
+			"client_init": "com.stereo528.stereolib.StereoLibClient",
 		},
 		"depends": [
 			{
@@ -34,7 +33,7 @@
 			},
 			{
 				"id": "minecraft",
-				"versions": ">=1.20"
+				"versions": ">=1.20.1"
 			},
 			{
 				"id": "midnightlib",
